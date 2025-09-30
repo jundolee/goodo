@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>법률 칼럼 - 법률사무소 구도</title>
+    <meta name="description" content="대형로펌 출신 변호사들의 실무 경험을 바탕으로 한 전문적인 법률 칼럼을 제공합니다.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <div class="nav-brand">
+                    <a href="/" class="logo">법률사무소 구도</a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="/" class="nav-link">홈</a></li>
+                    <li><a href="about.html" class="nav-link">사무소 소개</a></li>
+                    <li><a href="practice-areas.html" class="nav-link">전문 분야</a></li>
+                    <li><a href="insights.html" class="nav-link active">법률 칼럼</a></li>
+                    <li><a href="success-cases.html" class="nav-link">성공 사례</a></li>
+                    <li><a href="consultation.html" class="nav-link">상담 안내</a></li>
+                    <li><a href="contact.html" class="nav-link">문의하기</a></li>
+                </ul>
+                <div class="nav-cta">
+                    <a href="consultation.html" class="btn btn-primary">상담 신청</a>
+                </div>
+                <button class="nav-toggle" aria-label="메뉴 토글">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-background"></div>
+        <div class="container">
+            <div class="page-header-content">
+                <h1 class="page-title">법률 칼럼</h1>
+                <p class="page-subtitle">실무 경험을 바탕으로 한 전문적인 법률 인사이트</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Insights Header -->
+        <section class="insights-header section-padding bg-light">
+            <div class="container">
+                <div class="insights-intro">
+                    <p class="intro-text">
+                        법률사무소 구도의 변호사들이 실제 사건 경험과 법률 지식을 바탕으로 작성한 전문적인 칼럼입니다.
+                        최신 법률 동향과 실무 팁을 확인하실 수 있습니다.
+                    </p>
+                </div>
+
+                <!-- Search and Filter Bar -->
+                <div class="filter-bar">
+                    <div class="search-box">
+                        <input type="text" placeholder="제목 또는 내용으로 검색" class="search-input">
+                        <button class="search-btn" aria-label="검색">
+                            <span>🔍</span>
+                        </button>
+                    </div>
+
+                    <div class="filter-controls">
+                        <div class="category-filter">
+                            <button class="category-btn active" data-category="all">전체</button>
+                            <button class="category-btn" data-category="건설·부동산">건설·부동산</button>
+                            <button class="category-btn" data-category="지식재산권">지식재산권</button>
+                            <button class="category-btn" data-category="엔터테인먼트">엔터테인먼트</button>
+                            <button class="category-btn" data-category="손해배상">손해배상</button>
+                            <button class="category-btn" data-category="채권회수">채권회수</button>
+                        </div>
+
+                        <div class="sort-filter">
+                            <select class="sort-select">
+                                <option value="latest">최신순</option>
+                                <option value="popular">인기순</option>
+                                <option value="oldest">오래된순</option>
+                            </select>
+                        </div>
+
+                        <div class="view-toggle">
+                            <button class="view-btn active" data-view="grid" aria-label="그리드 뷰">
+                                <span>⊞</span>
+                            </button>
+                            <button class="view-btn" data-view="list" aria-label="리스트 뷰">
+                                <span>☰</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Insights Grid -->
+        <section class="insights-content section-padding">
+            <div class="container">
+                <div class="insights-grid" id="insightsGrid">
+                    <!-- 칼럼 1 -->
+                    <article class="insight-card" data-category="건설·부동산">
+                        <div class="insight-image">
+                            <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=360&h=203&q=80" alt="건설계약">
+                            <span class="insight-category">건설·부동산</span>
+                        </div>
+                        <div class="insight-content">
+                            <h3 class="insight-title">건설계약 시 주의해야 할 핵심 조항들</h3>
+                            <p class="insight-excerpt">
+                                건설 프로젝트의 성공을 위해 계약 단계에서 반드시 확인해야 하는 중요한 법적 사항들을 알아보겠습니다.
+                            </p>
+                            <div class="insight-meta">
+                                <span class="insight-author">김종철 변호사</span>
+                                <span class="insight-date">2024.01.15</span>
+                                <span class="insight-views">👁️ 324</span>
+                            </div>
+                            <div class="insight-tags">
+                                <span class="tag">건설계약</span>
+                                <span class="tag">부동산개발</span>
+                                <span class="tag">법률검토</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 칼럼 2 -->
+                    <article class="insight-card" data-category="지식재산권">
+                        <div class="insight-image">
+                            <img src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?ixlib=rb-4.0.3&auto=format&fit=crop&w=360&h=203&q=80" alt="특허전략">
+                            <span class="insight-category">지식재산권</span>
+                        </div>
+                        <div class="insight-content">
+                            <h3 class="insight-title">스타트업을 위한 지식재산권 보호 전략</h3>
+                            <p class="insight-excerpt">
+                                기술 기반 스타트업이 초기 단계부터 지식재산권을 효과적으로 보호하는 방법에 대해 알아보겠습니다.
+                            </p>
+                            <div class="insight-meta">
+                                <span class="insight-author">김태정 변호사·변리사</span>
+                                <span class="insight-date">2024.01.10</span>
+                                <span class="insight-views">👁️ 287</span>
+                            </div>
+                            <div class="insight-tags">
+                                <span class="tag">스타트업</span>
+                                <span class="tag">특허전략</span>
+                                <span class="tag">IP보호</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 칼럼 3 -->
+                    <article class="insight-card" data-category="엔터테인먼트">
+                        <div class="insight-image">
+                            <img src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=360&h=203&q=80" alt="엔터계약">
+                            <span class="insight-category">엔터테인먼트</span>
+                        </div>
+                        <div class="insight-content">
+                            <h3 class="insight-title">연예인 매니지먼트 계약의 주요 쟁점</h3>
+                            <p class="insight-excerpt">
+                                엔터테인먼트 산업에서 매니지먼트 계약 시 발생할 수 있는 법적 문제들과 해결 방안을 살펴보겠습니다.
+                            </p>
+                            <div class="insight-meta">
+                                <span class="insight-author">김태정 변호사·변리사</span>
+                                <span class="insight-date">2024.01.05</span>
+                                <span class="insight-views">👁️ 456</span>
+                            </div>
+                            <div class="insight-tags">
+                                <span class="tag">매니지먼트계약</span>
+                                <span class="tag">연예산업</span>
+                                <span class="tag">계약쟁점</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 칼럼 4 -->
+                    <article class="insight-card" data-category="손해배상">
+                        <div class="insight-image">
+                            <img src="https://via.placeholder.com/360x203/C9A961/FFFFFF?text=의료사고" alt="의료사고">
+                            <span class="insight-category">손해배상</span>
+                        </div>
+                        <div class="insight-content">
+                            <h3 class="insight-title">의료사고 손해배상 청구 시 필요한 증거자료</h3>
+                            <p class="insight-excerpt">
+                                의료사고로 피해를 입은 경우 효과적인 손해배상 청구를 위해 준비해야 할 필수 증거자료들을 설명합니다.
+                            </p>
+                            <div class="insight-meta">
+                                <span class="insight-author">김종철 변호사</span>
+                                <span class="insight-date">2023.12.28</span>
+                                <span class="insight-views">👁️ 392</span>
+                            </div>
+                            <div class="insight-tags">
+                                <span class="tag">의료사고</span>
+                                <span class="tag">증거자료</span>
+                                <span class="tag">손해배상</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 칼럼 5 -->
+                    <article class="insight-card" data-category="채권회수">
+                        <div class="insight-image">
+                            <img src="https://via.placeholder.com/360x203/C9A961/FFFFFF?text=채권회수" alt="채권회수">
+                            <span class="insight-category">채권회수</span>
+                        </div>
+                        <div class="insight-content">
+                            <h3 class="insight-title">채권회수 전략: 조기 대응의 중요성</h3>
+                            <p class="insight-excerpt">
+                                채권 회수에서 시간은 돈입니다. 조기에 적절한 법적 조치를 취함으로써 성공률을 높이는 방법을 알아보겠습니다.
+                            </p>
+                            <div class="insight-meta">
+                                <span class="insight-author">김종철 변호사</span>
+                                <span class="insight-date">2023.12.20</span>
+                                <span class="insight-views">👁️ 267</span>
+                            </div>
+                            <div class="insight-tags">
+                                <span class="tag">채권회수</span>
+                                <span class="tag">조기대응</span>
+                                <span class="tag">법적조치</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 칼럼 6 -->
+                    <article class="insight-card" data-category="건설·부동산">
+                        <div class="insight-image">
+                            <img src="https://via.placeholder.com/360x203/C9A961/FFFFFF?text=부동산등기" alt="부동산등기">
+                            <span class="insight-category">건설·부동산</span>
+                        </div>
+                        <div class="insight-content">
+                            <h3 class="insight-title">부동산 등기 이전 시 확인사항 체크리스트</h3>
+                            <p class="insight-excerpt">
+                                부동산 매매 시 등기 이전 과정에서 발생할 수 있는 문제들을 예방하기 위한 필수 확인사항들을 정리했습니다.
+                            </p>
+                            <div class="insight-meta">
+                                <span class="insight-author">김종철 변호사</span>
+                                <span class="insight-date">2023.12.15</span>
+                                <span class="insight-views">👁️ 198</span>
+                            </div>
+                            <div class="insight-tags">
+                                <span class="tag">부동산등기</span>
+                                <span class="tag">매매계약</span>
+                                <span class="tag">체크리스트</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 칼럼 7 -->
+                    <article class="insight-card" data-category="지식재산권">
+                        <div class="insight-image">
+                            <img src="https://via.placeholder.com/360x203/C9A961/FFFFFF?text=상표권" alt="상표권">
+                            <span class="insight-category">지식재산권</span>
+                        </div>
+                        <div class="insight-content">
+                            <h3 class="insight-title">상표권 침해 대응 가이드</h3>
+                            <p class="insight-excerpt">
+                                타인이 내 상표를 침해했을 때 취해야 할 법적 조치들과 효과적인 대응 전략을 단계별로 설명합니다.
+                            </p>
+                            <div class="insight-meta">
+                                <span class="insight-author">김태정 변호사·변리사</span>
+                                <span class="insight-date">2023.12.10</span>
+                                <span class="insight-views">👁️ 334</span>
+                            </div>
+                            <div class="insight-tags">
+                                <span class="tag">상표권</span>
+                                <span class="tag">침해대응</span>
+                                <span class="tag">법적조치</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="insight-card" data-category="엔터테인먼트">
+                        <div class="insight-image">
+                            <img src="https://via.placeholder.com/360x203/C9A961/FFFFFF?text=방송출연" alt="방송출연">
+                            <span class="insight-category">엔터테인먼트</span>
+                        </div>
+                        <div class="insight-content">
+                            <h3 class="insight-title">방송 출연 계약 시 반드시 확인해야 할 사항들</h3>
+                            <p class="insight-excerpt">
+                                방송 출연 계약 시 놓치기 쉬운 중요 조항들과 출연자의 권리를 보호하기 위한 계약 검토 포인트들을 알아보겠습니다.
+                            </p>
+                            <div class="insight-meta">
+                                <span class="insight-author">김태정 변호사·변리사</span>
+                                <span class="insight-date">2023.12.05</span>
+                                <span class="insight-views">👁️ 423</span>
+                            </div>
+                            <div class="insight-tags">
+                                <span class="tag">방송출연</span>
+                                <span class="tag">출연계약</span>
+                                <span class="tag">권리보호</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Load More Button -->
+                <div class="load-more-section">
+                    <button class="btn btn-outline btn-large" id="loadMoreBtn">더 많은 칼럼 보기</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter-section section-padding bg-primary">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2 class="newsletter-title">법률 인사이트 뉴스레터</h2>
+                    <p class="newsletter-subtitle">최신 법률 칼럼과 실무 팁을 이메일로 받아보세요</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="이메일 주소 입력" class="newsletter-input">
+                        <button class="btn btn-secondary btn-large">구독하기</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">법률사무소 구도</h3>
+                    <p class="footer-text">
+                        대형로펌 출신 변호사들의 전문적인 법률 서비스를<br>
+                        합리적인 가격으로 제공합니다.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="/">홈</a></li>
+                        <li><a href="about.html">사무소 소개</a></li>
+                        <li><a href="practice-areas.html">전문 분야</a></li>
+                        <li><a href="insights.html">법률 칼럼</a></li>
+                        <li><a href="success-cases.html">성공 사례</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Contact Info</h4>
+                    <div class="footer-contact">
+                        <p>서울시 강남구 테헤란로 123</p>
+                        <p>전화: 02-123-4567</p>
+                        <p>이메일: info@goodo.co.kr</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 법률사무소 구도. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Consultation Button -->
+    <div class="floating-cta">
+        <button class="floating-btn" aria-label="상담 신청">
+            <span class="floating-icon">💬</span>
+            <span class="floating-text">상담신청</span>
+        </button>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/insights.js"></script>
+</body>
+</html>
